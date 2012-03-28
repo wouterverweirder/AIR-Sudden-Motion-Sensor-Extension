@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C48F2AF14BEF8BB00D733CC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C48F2AE14BEF8BB00D733CC /* Cocoa.framework */; };
+		6C48F2B914BEF8BB00D733CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C48F2B714BEF8BB00D733CC /* InfoPlist.strings */; };
+		6C48F2BD14BEF8BB00D733CC /* SuddenMotionSensorExtension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C48F2BC14BEF8BB00D733CC /* SuddenMotionSensorExtension.cpp */; };
+		6C48F2C414BEF93200D733CC /* Adobe AIR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C48F2C314BEF93200D733CC /* Adobe AIR.framework */; };
+		6C48F2C714BEFAC900D733CC /* unimotion.c in Sources */ = {isa = PBXBuildFile; fileRef = 6C48F2C514BEFAC900D733CC /* unimotion.c */; };
+		6C48F2C814BEFAC900D733CC /* unimotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C48F2C614BEFAC900D733CC /* unimotion.h */; };
+		6C48F2CA14BF030200D733CC /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C48F2C914BF030200D733CC /* IOKit.framework */; };
+		6C48F2CC14BF096200D733CC /* SuddenMotionSensorAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C48F2CB14BF096200D733CC /* SuddenMotionSensorAdapter.cpp */; };
+		6C48F2CE14BF097200D733CC /* SuddenMotionSensorAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C48F2CD14BF097200D733CC /* SuddenMotionSensorAdapter.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C48F2AB14BEF8BB00D733CC /* SuddenMotionSensorExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SuddenMotionSensorExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C48F2AE14BEF8BB00D733CC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6C48F2B114BEF8BB00D733CC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6C48F2B214BEF8BB00D733CC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6C48F2B314BEF8BB00D733CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C48F2B614BEF8BB00D733CC /* SuddenMotionSensorExtension-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuddenMotionSensorExtension-Info.plist"; sourceTree = "<group>"; };
+		6C48F2B814BEF8BB00D733CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C48F2BA14BEF8BB00D733CC /* SuddenMotionSensorExtension-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuddenMotionSensorExtension-Prefix.pch"; sourceTree = "<group>"; };
+		6C48F2BB14BEF8BB00D733CC /* SuddenMotionSensorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuddenMotionSensorExtension.h; sourceTree = "<group>"; };
+		6C48F2BC14BEF8BB00D733CC /* SuddenMotionSensorExtension.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SuddenMotionSensorExtension.cpp; sourceTree = "<group>"; };
+		6C48F2C314BEF93200D733CC /* Adobe AIR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Adobe AIR.framework"; path = "/Applications/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac/Adobe AIR.framework"; sourceTree = "<absolute>"; };
+		6C48F2C514BEFAC900D733CC /* unimotion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unimotion.c; sourceTree = "<group>"; };
+		6C48F2C614BEFAC900D733CC /* unimotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unimotion.h; sourceTree = "<group>"; };
+		6C48F2C914BF030200D733CC /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		6C48F2CB14BF096200D733CC /* SuddenMotionSensorAdapter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuddenMotionSensorAdapter.cpp; sourceTree = "<group>"; };
+		6C48F2CD14BF097200D733CC /* SuddenMotionSensorAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuddenMotionSensorAdapter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C48F2A714BEF8BB00D733CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C48F2CA14BF030200D733CC /* IOKit.framework in Frameworks */,
+				6C48F2C414BEF93200D733CC /* Adobe AIR.framework in Frameworks */,
+				6C48F2AF14BEF8BB00D733CC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C48F29F14BEF8BA00D733CC = {
+			isa = PBXGroup;
+			children = (
+				6C48F2B414BEF8BB00D733CC /* SuddenMotionSensorExtension */,
+				6C48F2AD14BEF8BB00D733CC /* Frameworks */,
+				6C48F2AC14BEF8BB00D733CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C48F2AC14BEF8BB00D733CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C48F2AB14BEF8BB00D733CC /* SuddenMotionSensorExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C48F2AD14BEF8BB00D733CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C48F2C914BF030200D733CC /* IOKit.framework */,
+				6C48F2C314BEF93200D733CC /* Adobe AIR.framework */,
+				6C48F2AE14BEF8BB00D733CC /* Cocoa.framework */,
+				6C48F2B014BEF8BB00D733CC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C48F2B014BEF8BB00D733CC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C48F2B114BEF8BB00D733CC /* AppKit.framework */,
+				6C48F2B214BEF8BB00D733CC /* CoreData.framework */,
+				6C48F2B314BEF8BB00D733CC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6C48F2B414BEF8BB00D733CC /* SuddenMotionSensorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6C48F2C514BEFAC900D733CC /* unimotion.c */,
+				6C48F2C614BEFAC900D733CC /* unimotion.h */,
+				6C48F2BB14BEF8BB00D733CC /* SuddenMotionSensorExtension.h */,
+				6C48F2BC14BEF8BB00D733CC /* SuddenMotionSensorExtension.cpp */,
+				6C48F2B514BEF8BB00D733CC /* Supporting Files */,
+				6C48F2CB14BF096200D733CC /* SuddenMotionSensorAdapter.cpp */,
+				6C48F2CD14BF097200D733CC /* SuddenMotionSensorAdapter.h */,
+			);
+			path = SuddenMotionSensorExtension;
+			sourceTree = "<group>";
+		};
+		6C48F2B514BEF8BB00D733CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C48F2B614BEF8BB00D733CC /* SuddenMotionSensorExtension-Info.plist */,
+				6C48F2B714BEF8BB00D733CC /* InfoPlist.strings */,
+				6C48F2BA14BEF8BB00D733CC /* SuddenMotionSensorExtension-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6C48F2A814BEF8BB00D733CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C48F2C814BEFAC900D733CC /* unimotion.h in Headers */,
+				6C48F2CE14BF097200D733CC /* SuddenMotionSensorAdapter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C48F2AA14BEF8BB00D733CC /* SuddenMotionSensorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C48F2C014BEF8BB00D733CC /* Build configuration list for PBXNativeTarget "SuddenMotionSensorExtension" */;
+			buildPhases = (
+				6C48F2A614BEF8BB00D733CC /* Sources */,
+				6C48F2A714BEF8BB00D733CC /* Frameworks */,
+				6C48F2A814BEF8BB00D733CC /* Headers */,
+				6C48F2A914BEF8BB00D733CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuddenMotionSensorExtension;
+			productName = SuddenMotionSensorExtension;
+			productReference = 6C48F2AB14BEF8BB00D733CC /* SuddenMotionSensorExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C48F2A114BEF8BA00D733CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6C48F2A414BEF8BA00D733CC /* Build configuration list for PBXProject "SuddenMotionSensorExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C48F29F14BEF8BA00D733CC;
+			productRefGroup = 6C48F2AC14BEF8BB00D733CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C48F2AA14BEF8BB00D733CC /* SuddenMotionSensorExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C48F2A914BEF8BB00D733CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C48F2B914BEF8BB00D733CC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C48F2A614BEF8BB00D733CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C48F2BD14BEF8BB00D733CC /* SuddenMotionSensorExtension.cpp in Sources */,
+				6C48F2C714BEFAC900D733CC /* unimotion.c in Sources */,
+				6C48F2CC14BF096200D733CC /* SuddenMotionSensorAdapter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C48F2B714BEF8BB00D733CC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C48F2B814BEF8BB00D733CC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C48F2BE14BEF8BB00D733CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6C48F2BF14BEF8BB00D733CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6C48F2C114BEF8BB00D733CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuddenMotionSensorExtension/SuddenMotionSensorExtension-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "SuddenMotionSensorExtension/SuddenMotionSensorExtension-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		6C48F2C214BEF8BB00D733CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Adobe Flash Builder 4.6/sdks/4.6.0/runtimes/air/mac\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuddenMotionSensorExtension/SuddenMotionSensorExtension-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "SuddenMotionSensorExtension/SuddenMotionSensorExtension-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C48F2A414BEF8BA00D733CC /* Build configuration list for PBXProject "SuddenMotionSensorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C48F2BE14BEF8BB00D733CC /* Debug */,
+				6C48F2BF14BEF8BB00D733CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C48F2C014BEF8BB00D733CC /* Build configuration list for PBXNativeTarget "SuddenMotionSensorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C48F2C114BEF8BB00D733CC /* Debug */,
+				6C48F2C214BEF8BB00D733CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C48F2A114BEF8BA00D733CC /* Project object */;
+}

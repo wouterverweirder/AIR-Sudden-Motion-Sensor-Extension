@@ -1,0 +1,24 @@
+
+as3 code/SuddenMotionSensorExtension/.actionScriptProperties
+
+as3 code/SuddenMotionSensorExtension/.flexLibProperties
+
+as3 code/SuddenMotionSensorExtension/.project
+
+as3 code/SuddenMotionSensorExtension/.settings/*
+
+as3 code/SuddenMotionSensorExtension/assets/*
+
+as3 code/SuddenMotionSensorExtension/bin/cert/debugCert.p12
+
+demo/SuddenMotionSensorDemos/.DS_Store
+
+demo/SuddenMotionSensorDemos/.actionScriptProperties
+
+demo/SuddenMotionSensorDemos/.project
+
+demo/SuddenMotionSensorDemos/.settings/*
+
+demo/SuddenMotionSensorDemos/assets/build/*
+
+native code/mac/.DS_Store
